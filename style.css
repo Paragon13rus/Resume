@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&family=Work+Sans:wght@100;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 700px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #f1f1f1;
+    color: #3a2923;
+}
+
+
+.info {
+    display: flex;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px){
+    .info{
+        display: block;
+    }
+}
+
+.myFoto{
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    display: block;
+}
+
+
+
+.info-text{
+    display: block;
+    margin-left: 40px;
+} 
+
+@media (max-width: 600px){
+    .info-text{
+    margin-left: 0;
+    }
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin: 5px 0;
+}
+
+.table-info {
+    width: 100%;
+    text-align: center;
+}
+
+.table-info thead{
+    
+}
+
+.table-info th{
+    text-transform: uppercase;
+    font-style: bold;
+    border-bottom: 7px solid #3a2923;
+}
+
+.table-info td:hover{
+    background-color: rgb(122, 118, 118);
+}
+
+
+
+
+.form label{
+    display: block;
+    border: none;
+    
+}
+
+.form input,
+.form textarea{
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    margin-bottom: 10px;
+    border-color: #3a2923;
+
+}
+
+.btn {
+    color: white;
+    background-color: #3a2923;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 40px;
+    cursor: pointer; 
+    font-family: inherit;
+    display: block;
+}
+
+.btn:hover{
+    opacity: 0.75;
+}
+
+.btn:active{
+    background-color: black;
+}
+
+a {
+    color: #3a2923;
+    text-decoration: none;
+}
+
+a:active{
+    color: #3a2923;
+}
+
+a:hover{
+    color: rgb(122, 118, 118);
+}
